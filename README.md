@@ -5,7 +5,7 @@ Resources (conference/journal publications, references to dataset) for harmful m
 
 This repo contains relevant resources Automatic Harmful Memes Detection. We list a comprehensive and up-to-date information for harmful meme detection.
 
-- [Task Definition](#task-definition)
+- [Harmful Memes Detection](#task-definition)
 - [Datasets](#datasets)
 - [Models](#model)
 - [Relevant Surveys](#relevant-surveys)
