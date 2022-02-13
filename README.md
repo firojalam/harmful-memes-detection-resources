@@ -1,5 +1,9 @@
 # Automatic Harmful Memes Detection Resources
-Resources (conference/journal publications, references to dataset) for harmful memes detection.
+Resources (conference/journal publications, references to datasets) for harmful memes detection.
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firojalam/harmful-memes-detection-resources)
+[![Last Commit](https://img.shields.io/github/last-commit/firojalam/harmful-memes-detection-resources)](https://github.com/firojalam/harmful-memes-detection-resources)
+[![Contribution_welcome](https://img.shields.io/badge/Contributions-welcome-blue)](https://github.com/firojalam/harmful-memes-detection-resources/blob/main/contribute.md)
 
 ## Overview
 
