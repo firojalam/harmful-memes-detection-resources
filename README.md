@@ -11,18 +11,32 @@ This repo contains relevant resources Automatic Harmful Memes Detection. We list
 
 - [Harmful Memes Detection](#task-definition)
 - [Datasets](#datasets)
-- [Models](#model)
+<!-- - [Models](#model) -->
 - [Relevant Surveys](#relevant-surveys)
 - [Current SOTA](#current-sota)
 <!-- - [Shared Tasks](#shared-tasks) -->
 
-## Task Definition
+## Harmful Memes Detection
 
 ## Datasets
+* **Harmful Memes:**
+
+* **Hateful Memes:** Douwe Kiela, Hamed Firooz, Aravind Mohan,
+Vedanuj Goswami, Amanpreet Singh, Pratik Ringshia, Davide Testuggine, **The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes**, 2020.
+[[Paper](https://proceedings.neurips.cc/paper/2020/file/1b84c4cee2b8b3d823b30e2d604b1878-Paper.pdf)]
+[[Dataset](https://hatefulmemeschallenge.com/#download)]
+
+* **Fine-grained Propaganda Memes:** Dimitar Dimitrov, Bishr Bin Ali, Shaden Shaar, Firoj Alam, Fabrizio Silvestri, Hamed Firooz, Preslav Nakov and Giovanni Da San Martino, **Detecting Propaganda Techniques in Memes**, 2021
+[[Paper](https://aclanthology.org/2021.acl-long.516.pdf)]
+[[Dataset](https://github.com/di-dimitrov/propaganda-techniques-in-memes)]
+
+* **Troll Memes:** Shardul Suryawanshi, Bharathi Raja Chakravarthi, Pranav Varma, Mihael Arcan, John P. McCrae and Paul Buitelaar, **A Dataset for Troll Classification of TamilMemes**, 2020.
+[[Paper](https://aclanthology.org/2020.wildre-1.2.pdf)]
+[[Dataset](https://github.com/sharduls007/TamilMemes)]
 
 <!-- ## Shared Tasks -->
 
-## Models
+<!-- ## Models -->
 
 ## Relevant Surveys
 
