@@ -10,8 +10,8 @@ Resources (conference/journal publications, references to datasets) for harmful 
 This repo contains relevant resources Automatic Harmful Memes Detection. We list a comprehensive and up-to-date information for harmful meme detection.
 
 - [Harmful Memes Detection](#task-definition)
-- [Datasets](#datasets)
-<!-- - [Models](#model) -->
+- [Datasets](#datasets) <!-- - [Models](#model) -->
+- [Relevant Studies](#relevant-studies)
 - [Relevant Surveys](#relevant-surveys)
 - [Current SOTA](#current-sota)
 <!-- - [Shared Tasks](#shared-tasks) -->
@@ -19,28 +19,82 @@ This repo contains relevant resources Automatic Harmful Memes Detection. We list
 ## Harmful Memes Detection
 
 ## Datasets
-* **Harmful Memes:**
+* **Harmful Memes:** Shraman Pramanick, Shivam Sharma, Dimitar Dimitrov, Md Shad Akhtar, Preslav Nakov, Tanmoy Chakraborty **MOMENTA: A Multimodal Framework for Detecting Harmful Memes and Their Targets**, 2021.
+[[Paper](https://aclanthology.org/2021.findings-emnlp.379.pdf)]
+[[Dataset](https://github.com/LCS2-IIITD/MOMENTA)]
+
+* **Harmful Memes:** Shraman Pramanik, Dimiter Dimitrov, Rituparna Mukherjee, Shivam Sharma, Md. Shad Akhtar, Preslav Nakov, Tanmoy Chakraborty, **Detecting Harmful Memes and Their Targets**, 2021.
+[[Paper](https://aclanthology.org/2021.findings-acl.246.pdf)]
+[[Dataset](http://github.com/di-dimitrov/harmeme)]
 
 * **Hateful Memes:** Douwe Kiela, Hamed Firooz, Aravind Mohan,
 Vedanuj Goswami, Amanpreet Singh, Pratik Ringshia, Davide Testuggine, **The Hateful Memes Challenge: Detecting Hate Speech in Multimodal Memes**, 2020.
 [[Paper](https://proceedings.neurips.cc/paper/2020/file/1b84c4cee2b8b3d823b30e2d604b1878-Paper.pdf)]
 [[Dataset](https://hatefulmemeschallenge.com/#download)]
 
-* **Fine-grained Propaganda Memes:** Dimitar Dimitrov, Bishr Bin Ali, Shaden Shaar, Firoj Alam, Fabrizio Silvestri, Hamed Firooz, Preslav Nakov and Giovanni Da San Martino, **Detecting Propaganda Techniques in Memes**, 2021
+* **Fine-grained Propaganda Memes:** Dimitar Dimitrov, Bishr Bin Ali, Shaden Shaar, Firoj Alam, Fabrizio Silvestri, Hamed Firooz, Preslav Nakov and Giovanni Da San Martino, **Detecting Propaganda Techniques in Memes**, 2021.
 [[Paper](https://aclanthology.org/2021.acl-long.516.pdf)]
 [[Dataset](https://github.com/di-dimitrov/propaganda-techniques-in-memes)]
+
+* **Racist or Sexist Meme:** Haris Bin Zia, Ignacio Castro, Gareth Tyson**Racist or Sexist Meme? Classifying Memes beyond Hateful**, 2021.
+[[Paper](https://aclanthology.org/2021.woah-1.23/)]
+[[Dataset](https://github.com/facebookresearch/fine_grained_hateful_memes)]
+
+* **Antisemitism Detection:** Mohit Chandra, Dheeraj Pailla, Himanshu Bhatia, Aadilmehdi Sanchawala, Manish Gupta, Manish Shrivastava, Ponnurangam Kumaraguru, **Subverting the Jewtocracy: Online Antisemitism Detection Using Multimodal Deep Learning**, 2021.
 
 * **Troll Memes:** Shardul Suryawanshi, Bharathi Raja Chakravarthi, Pranav Varma, Mihael Arcan, John P. McCrae and Paul Buitelaar, **A Dataset for Troll Classification of TamilMemes**, 2020.
 [[Paper](https://aclanthology.org/2020.wildre-1.2.pdf)]
 [[Dataset](https://github.com/sharduls007/TamilMemes)]
 
+* **Sexist meme:** Elisabetta Fersini; Francesca Gasparini; Silvia Corchs, **Detecting Sexist MEME On The Web: A Study on Textual and Visual Cues**, 2019.
+[[Paper](https://ieeexplore.ieee.org/document/8925199/authors#authors)]
+[[Dataset](https://github.com/MIND-Lab/MEME)]
+
+* **Hateful Memes:** Hannah Kirk, Yennie Jun, Paulius Rauba, Gal Wachtel, Ruining Li, Xingjian Bai, Noah Broestl, Martin Doff-Sotta, Aleksandar Shtedritski, Yuki M Asano, **Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset**,
+
+* **Offensive Memes:** Benet Oriol Sabat, Cristian Canton Ferrer, Xavier Giro-i-Nieto, **Hate Speech in Pixels: Detection of Offensive Memes towards Automatic Moderation**, 2019.
+[[Paper](https://arxiv.org/abs/1910.02334)]
+[[Dataset](https://github.com/iamatulsingh/pinterest-image-scrap)]
+
+* **Hateful memes (Pinterest)** Hannah Kirk, Yennie Jun, Paulius Rauba, Gal Wachtel, Ruining Li, Xingjian Bai, Noah Broestl, Martin Doff-Sotta, Aleksandar Shtedritski, Yuki M Asano, **Memes in the Wild: Assessing the Generalizability of the Hateful Memes Challenge Dataset**,
+[[Paper](https://aclanthology.org/2021.woah-1.4/)]
+[[Dataset](https://github.com/iamatulsingh/ pinterest-image-scrap)]
+
+* **MMHS150K:** Raul Gomez, Jaume Gibert, Lluis Gomez, Dimosthenis Karatzas, **Exploring Hate Speech Detection in Multimodal Publications**, 2019.
+[[Paper](https://arxiv.org/pdf/1910.03814.pdf)]
+[[Dataset](https://gombru.github.io/2019/10/09/MMHS/)]
+
+* **MultiOFF:** Shardul Suryawanshi, Bharathi Raja Chakravarthi, Mihael Arcan, Paul Buitelaar, **Multimodal Meme Dataset (MultiOFF) for Identifying Offensive Content in Image and Text**
+[[Paper](https://aclanthology.org/2020.trac-1.6/)]
+[[Dataset](https://github.com/bharathichezhiyan/Multimodal-Meme-Classification-Identifying-Offensive-Content-in-Image-and-Text)]
+
+
+
+
 <!-- ## Shared Tasks -->
 
 <!-- ## Models -->
+## Relevant Studies
+
+### Hate
+
+### Offensive
+* **AOMD: An Analogy-aware Approach to Offensive Meme Detection on Social Media**,
+
+### Propaganda
+
+### Harassment/Cyberbullying
+
+### Violence
+
+### Self-Inflicted Harm
+
 
 ## Relevant Surveys
 
+
 ## Current SOTA
+Below we provide a list of recent work with current state-of-the-art results.
 
 | Title                                                                                                                                                                                           | Types          | Task                                                         | Dataset                                                                                                                         | Task Type                                                                                                    | Approach                                                                             | AUC  | Acc  | F1                                                                                                                                                                               | Details                                                                                                                                                                                            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ---- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
