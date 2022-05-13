@@ -4,8 +4,16 @@ This repository contains resources (conference/journal publications, references 
 
 The automatic identification of harmful content online is of major concern for social media platforms, policymakers, and society. Researchers have studied textual, visual, and audio content, but typically in isolation. Yet, harmful content often combines multiple modalities, as in the case of memes, which are of particular interest due to their viral nature. With this in mind, here we offer a comprehensive survey with a focus on harmful memes. Based on a systematic analysis of recent literature, we first propose a new typology of harmful memes, and then we highlight and summarize the relevant state of the art. One interesting finding is that many types of harmful memes are not really studied, e.g., such featuring self-harm and extremism, partly due to the lack of suitable datasets. We further find that existing datasets mostly capture multi-class scenarios, which are not inclusive of the affective spectrum that memes can represent. Another observation is that memes can propagate globally through repackaging in different languages and that they can also be multilingual, blending different cultures. We conclude by highlighting several challenges related to multimodal semiotics, technological constraints and non-trivial social engagement, and we present several open-ended aspects such as delineating online harm and empirically examining related frameworks and assistive interventions, which we believe will motivate and drive future research.
 
-![Typology of harmful memes](harmful_content_tax.png?raw=true "Typology of harmful memes.")
-![Examples of different types of harmful memes](examples_harmful_memes.png?raw=true "Examples of different types of harmful memes.")
+<a href="harmful_content_tax.png"> <img src="harmful_content_tax.png" width="60%" height="60%"></a>
+
+<!-- ![Typology of harmful memes](harmful_content_tax.png?raw=true "Typology of harmful memes.") -->
+
+<a href="examples_harmful_memes.png"> <img src="examples_harmful_memes.png" width="60%" height="60%"></a>
+
+<!-- ![Examples of different types of harmful memes](examples_harmful_memes.png?raw=true "Examples of different types of harmful memes.") -->
+
+<!-- <img src="https://your-image-url.type" width="100" height="100"> -->
+
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firojalam/harmful-memes-detection-resources)
 [![Last Commit](https://img.shields.io/github/last-commit/firojalam/harmful-memes-detection-resources)](https://github.com/firojalam/harmful-memes-detection-resources)
