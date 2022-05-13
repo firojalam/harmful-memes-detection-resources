@@ -1,5 +1,11 @@
 # Automatic Harmful Memes Detection Resources
-Resources (conference/journal publications, references to datasets) for harmful memes detection.
+This repository contains resources (conference/journal publications, references to datasets) associated the work ["Detecting and Understanding Harmful Memes: A Survey"](https://arxiv.org/abs/2205.04274) accepted at IJCAI-ECAI (Survey), 2022.
+
+
+The automatic identification of harmful content online is of major concern for social media platforms, policymakers, and society. Researchers have studied textual, visual, and audio content, but typically in isolation. Yet, harmful content often combines multiple modalities, as in the case of memes, which are of particular interest due to their viral nature. With this in mind, here we offer a comprehensive survey with a focus on harmful memes. Based on a systematic analysis of recent literature, we first propose a new typology of harmful memes, and then we highlight and summarize the relevant state of the art. One interesting finding is that many types of harmful memes are not really studied, e.g., such featuring self-harm and extremism, partly due to the lack of suitable datasets. We further find that existing datasets mostly capture multi-class scenarios, which are not inclusive of the affective spectrum that memes can represent. Another observation is that memes can propagate globally through repackaging in different languages and that they can also be multilingual, blending different cultures. We conclude by highlighting several challenges related to multimodal semiotics, technological constraints and non-trivial social engagement, and we present several open-ended aspects such as delineating online harm and empirically examining related frameworks and assistive interventions, which we believe will motivate and drive future research.
+
+![Typology of harmful memes](harmful_content_tax.png?raw=true "Typology of harmful memes.")
+![Examples of different types of harmful memes](examples_harmful_memes.png?raw=true "Examples of different types of harmful memes.")
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/firojalam/harmful-memes-detection-resources)
 [![Last Commit](https://img.shields.io/github/last-commit/firojalam/harmful-memes-detection-resources)](https://github.com/firojalam/harmful-memes-detection-resources)
@@ -9,11 +15,13 @@ Resources (conference/journal publications, references to datasets) for harmful 
 
 This repo contains relevant resources Automatic Harmful Memes Detection. We list a comprehensive and up-to-date information for harmful meme detection.
 
+## Table of Contents:
 - [Harmful Memes Detection](#task-definition)
 - [Datasets](#datasets) <!-- - [Models](#model) -->
 - [Relevant Studies](#relevant-studies)
 - [Relevant Surveys](#relevant-surveys)
 - [Current SOTA](#current-sota)
+- [Cite](#cite)
 <!-- - [Shared Tasks](#shared-tasks) -->
 
 ## Harmful Memes Detection
@@ -169,3 +177,19 @@ Below we provide a list of recent work with current state-of-the-art results.
 |||||| ResNET (Training: TamilMemes + ImageNet)                                                                                                                                                        |                |                                                              | 0.52                                                                                                                            |
 |||||| MobileNet (Training: TamilMemes + ImageNet + Flickr1k)                                                                                                                                          |                |                                                              | 0.47                                                                                                                            |
 |||||| ResNET (Training: TamilMemes + ImageNet + Flickr30k)                                                                                                                                            |                |                                                              | 0.52                                                                                                                            |
+
+
+## Cite
+Please cite the following paper.
+```
+@inproceedings{ijcai2022Shivam,
+  title     = {Detecting and Understanding Harmful Memes: A Survey},
+  author    = {Shivam Sharma and  Firoj Alam and Md. Shad Akhtar  and Dimitar Dimitrov  and Giovanni Da San Martino  and Hamed Firooz and Alon Halevy and Fabrizio Silvestri and Preslav Nakov and Tanmoy Chakraborty},
+  booktitle = {Proceedings of the 31st International Joint Conference on Artificial Intelligence and the 25th European Conference on Artificial Intelligence},
+  series={IJCAI-ECAI~'22},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  year      = {2022},
+  note      = {Survey Track},
+  address={Messe Wien, Vienna, Austria},
+}
+```
